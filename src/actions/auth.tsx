@@ -1,4 +1,4 @@
-import { API } from "../helper/config";
+import { API } from "../config";
 // import { IS_AUTHENTICATED, RESET_STORE, LOGOUT } from "../constant";
 // import { showSnack, sidebarItem } from "./util";
 // import { beginTask, endTask } from "redux-nprogress";

@@ -1,13 +1,12 @@
 import { createStore, applyMiddleware, compose  } from 'redux';
 import thunk from 'redux-thunk';
-import { nprogressMiddleware } from "redux-nprogress";
 import rootReducer from '../reducer';
 
 const initialState = {};
 
 const middleware = [
   thunk,
-  nprogressMiddleware(),
+  
 ];
 
 const store = createStore(

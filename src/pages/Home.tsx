@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 const Home = () => {
   return (
@@ -8,4 +9,9 @@ const Home = () => {
   );
 };
 
-export default Home;
+const mapStateToProps = state => {
+  console.log(state);
+  return state;
+}
+
+export default connect(mapStateToProps, null)(Home);
